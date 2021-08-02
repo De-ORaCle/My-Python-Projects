@@ -1564,3 +1564,6 @@ while True:
 
 else:
       print ("You did not enter a valid option. Sorry, try again.")
+      
+#If you loved this or you're looking for more of this, check https://github.com/De-ORaCle
+#Don't forget to follow me.
