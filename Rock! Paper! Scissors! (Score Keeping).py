@@ -40,3 +40,59 @@ Enter 3 for Scissors!\n
     else:                                                   #An impossible situation
         print ("I think I might have a mental breakdown.")
         break
+        
+        userput = int(userput)
+
+    if userput == 1:                                        #Assigning the simple inputs to the real game
+        userinput = "Rock!"
+    elif userput == 2:
+        userinput = "Paper!"
+    elif userput == 3:
+        userinput = "Scissors!"
+    else:
+        print ("You didn't enter 1, 2 or 3.")
+        break
+
+    if bot == 1 and userput == 1:                           #The nine possible out comes and who wins in each
+        print ("You:",userinput)
+        print ("Bot:",botput)
+        print ("\nThat's a draw.")
+    elif bot == 2 and userput == 2:
+        print ("You:",userinput)
+        print ("Bot:",botput)
+        print ("\nThat's a draw.")
+    elif bot == 3 and userput == 3:
+        print ("You:",userinput)
+        print ("Bot:",botput)
+        print ("\nThat's a draw.")
+    elif bot == 1 and userput == 2:
+        print ("You:",userinput)
+        print ("Bot:",botput)
+        print ("\nYou win!")
+        score = score + 1
+    elif bot == 1 and userput == 3:
+        print ("You:",userinput)
+        print ("Bot:",botput)
+        print ("\nBot wins!")
+    elif bot == 2 and userput == 1:
+        print ("You:",userinput)
+        print ("Bot:",botput)
+        print ("\nBot wins!")
+    elif bot == 2 and userput == 3:
+        print ("You:",userinput)
+        print ("Bot:",botput)
+        print ("\nYou win!")
+        score = score + 1
+    elif bot == 3 and userput == 1:
+        print ("You:",userinput)
+        print ("Bot:",botput)
+        print ("\nYou win!")
+        score = score + 1
+    elif bot == 3 and userput == 2:
+        print ("You:",userinput)
+        print ("Bot:",botput)
+        print ("\nBot wins!")
+    else:                                                   #An impossible situation
+        print ("I think I might have a mental breakdown.")
+        break
+    
