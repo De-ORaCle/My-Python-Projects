@@ -40,8 +40,8 @@ Enter 3 for Scissors!\n
     else:                                                   #An impossible situation
         print ("I think I might have a mental breakdown.")
         break
-        
-        userput = int(userput)
+
+    userput = int(userput)
 
     if userput == 1:                                        #Assigning the simple inputs to the real game
         userinput = "Rock!"
@@ -95,4 +95,28 @@ Enter 3 for Scissors!\n
     else:                                                   #An impossible situation
         print ("I think I might have a mental breakdown.")
         break
+
+    print ('''\nDo you wish to...
+1. Play again.
+2. Check your score.
+3. Exit the game.
+''')                                                    
+    again = input("")
     
+    if again.isdigit():                                     #Making sure the user's input is a digit
+        print("")
+    else:
+        print ("You didn't enter a number.")
+        break
+    
+    again = int(again)
+    
+    if again == 1:                                          #Looping if the user decides to play again
+        print("")
+    elif again == 2:
+        print("You have won",score,"game(s) in",loop,"trials.\n")
+    elif again == 3:
+        break
+    else:
+        print ("You were supposed to enter either 1, 2 or 3.")
+        break
