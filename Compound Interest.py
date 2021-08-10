@@ -37,3 +37,8 @@ br = r/n
 brr = 1 + br
 brrr = brr**(n*t)
 A = P*brrr
+
+print ("\n\nThe compound interest is",A)
+
+#If you loved this or you're looking for more of this, check https://github.com/De-ORaCle
+#Don't forget to follow me.
