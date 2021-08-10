@@ -27,3 +27,13 @@ if t.isdigit():
 else:
     print("You didn't enter a valid number.")
     exit()
+
+P = int(P)
+r = int(r)
+n = int(n)
+t = int(t)
+
+br = r/n
+brr = 1 + br
+brrr = brr**(n*t)
+A = P*brrr
