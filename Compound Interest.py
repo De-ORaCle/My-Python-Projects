@@ -13,3 +13,17 @@ if r.isdigit():
 else:
     print("You didn't enter a valid number.")
     exit()
+
+n = input('''Enter the compound (n), that is, how many times a year: ''')
+if n.isdigit():
+    print()
+else:
+    print("You didn't enter a valid number.")
+    exit()
+
+t = input("Enter the time (t in years): ")
+if t.isdigit():
+    print()
+else:
+    print("You didn't enter a valid number.")
+    exit()
