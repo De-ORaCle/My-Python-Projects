@@ -25,7 +25,7 @@ while True:                                                                     
     if End == 1:
         continue                                                                    #Provided the user chooses to continue, this line makes the loop continue
     elif End == 2:
-        break
+        break                                                                       #If the user chooses to end the loop, this code breaks it
     else:
         print ("You entered an invalid input.")
         exit()
