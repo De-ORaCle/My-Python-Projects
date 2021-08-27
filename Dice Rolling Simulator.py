@@ -28,4 +28,4 @@ while True:                                                                     
         break                                                                       #If the user chooses to end the loop, this code breaks it
     else:
         print ("You entered an invalid input.")
-        exit()
+        exit()                                                                      #The the user enters a wrong input, the code prompts the user then terminates
