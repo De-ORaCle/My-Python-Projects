@@ -9,7 +9,7 @@ This beginner-level python projects will help build a strong foundation for fund
 
 '''
 
-while True:
+while True:                                                                         #This line loops the rest of the code over and over infinititively
     print ("Roll the dice (Press Enter to continue) ")
     input ()
     import random
