@@ -13,7 +13,7 @@ while True:                                                                     
     print ("Roll the dice (Press Enter to continue) ")
     input ()
     import random
-    dice = random.randint(1,6)
+    dice = random.randint(1,6)                                                      #This line lets python choose any random number between 1 and 6
     print("--- ",dice)
 
     End = input ('''\nDo you wish to roll a dice again?
