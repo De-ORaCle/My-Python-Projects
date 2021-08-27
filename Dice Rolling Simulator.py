@@ -23,7 +23,7 @@ while True:                                                                     
 
     End = int(End)
     if End == 1:
-        continue
+        continue                                                                    #Provided the user chooses to continue, this line makes the loop continue
     elif End == 2:
         break
     else:
