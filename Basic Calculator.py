@@ -16,13 +16,14 @@ def exponential(x, y):
 def cube(x):
       return x * x * x
 
-print ("Select operation.")
-print ("1. Add")
-print ("2. Subtract")
-print ("3. Multiply")
-print ("4. Divide")
-print ("5. Exponential")
-print ("6. Cube")
+print ('''Select operation.
+1. Add
+2. Subtract
+3. Multiply
+4. Divide
+5. Exponential
+6. Cube
+''')
 
 while True:
       choice = input ("Enter choice(1/2/3/4/5/6): ")
