@@ -1,4 +1,4 @@
 import random
-cap = random.randint(1,5)
+year = random.randint(1900,2021)
 
-print (cap)
+print (year)
