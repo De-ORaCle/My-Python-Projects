@@ -58,5 +58,4 @@ while True:
 
 #If you loved this or you're looking for more of this, check https://github.com/De-ORaCle
 #Don't forget to follow me.
-
-
+#Check out my other codes too, I hope they help on your development journey
