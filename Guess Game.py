@@ -174,7 +174,7 @@ while True:
         elif wins == 2:
             print("You tried")
         elif wins == 1:
-            print("Try again later never give up")
+            print("Try again later. Never give up")
         elif wins == 0:
             print("You lose")
         break
