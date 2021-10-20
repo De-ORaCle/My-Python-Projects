@@ -1,3 +1,7 @@
+'''
+This program generates a 8-digit random code that could be used for passwords.
+'''
+
 import random
 
 figure1 = random.randint(0,9)
